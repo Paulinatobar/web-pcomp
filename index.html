@@ -1,0 +1,321 @@
+<!--Grupo 02: Martina Cabello, María Emilia Del Río, Sofía Hernández, Paulina Tobar, Fernanda Vallejos y Rocío Zuñiga-->
+<!--Código realizado por Paulina Tobar y Fernanda Vallejos-->
+
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+	<title>muRedder</title>
+	<link rel = "icon" href = "img/pcomp.png" type = "image/png">
+	<link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+	<header class = "site-header">
+		<div class = "top-bar">
+			<a class = "brand" href = "#inicio">muRedder</a>
+			<nav class = "site-nav">
+				<a href = "#proyecto">PROYECTO</a>
+				<a href = "#autores">AUTORES</a>
+				<a href = "#critical">CRITICAL MEDIA</a>
+				<a href = "#principios">LEV MANOVICH</a>
+				<a href = "#creacion">PROCESO</a>
+				<a href = "#tecnologia">TECNOLOGÍA</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section id = "inicio" class = "hero-section">
+			<img class = "hero-image" src = "img/hero.jpg" alt = "muRedder">
+			<div class = "hero-content">
+				<h1 class = "hero-wordmark">muR<span class = "hero-accent">edd</span>er</h1>
+				<p class = "hero-tagline">"Un nuevo valor para el consumo<br>lento de contenido<br>y participación musical"</p>
+			</div>
+		</section>
+
+		<section id = "proyecto" class = "project-section">
+			<div class = "lateral-label">PROYECTO</div>
+			<div class = "project-wrapper">
+				<div class = "project-copy">
+					<h1>muRedder</h1>
+					<p>Examina y cuestiona las <strong>prácticas cotidianas de consumo musical en la era digital</strong>. Al convertir contenido musical intangible en artefactos tangibles y diseñar que la música no pueda reproducirse más de una vez, <strong>el proyecto materializa el acto de escuchar y enfatiza la efimeridad del sonido</strong>. La destrucción del ticket, que representa el desvanecimiento del sonido, funciona como una <strong>crítica a la reproducción infinita y al consumo pasivo de medios</strong>, invitando a reflexionar sobre la temporalidad, la propiedad y la experiencia sensorial del contenido digital.</p>
+				</div>
+
+				<div class = "project-gallery">
+					<div class = "slider">
+						<div class = "slide active">
+							<img src = "img/songs.jpg" alt = "Visual 1">
+						</div>
+						<div class = "slide">
+							<img src = "img/description.jpg" alt = "Visual 2">
+						</div>
+						<div class = "slide">
+							<img src = "img/empty.jpg" alt = "Visual 3">
+						</div>
+					</div>
+
+					<button class = "slider-btn prev" aria-label = "Anterior">&#10094;</button>
+					<button class = "slider-btn next" aria-label = "Siguiente">&#10095;</button>
+
+					<div class = "slider-dots">
+						<button class = "dot active" data-index = "0"></button>
+						<button class = "dot" data-index = "1"></button>
+						<button class = "dot" data-index = "2"></button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id = "autores" class = "authors-section">
+			<h2>AUTORES</h2>
+			<div class = "authors-grid">
+				<article class = "author-card">
+					<div class = "author-photo" tabindex = "0">
+						<img src = "img/kyungjin-kim.jpg" alt = "Foto de Kyungjin Kim">
+					</div>
+					<div class = "author-info">
+						<h3>Kyungjin Kim</h3>
+						<p>Investigadora y diseñadora en el Interactive Product Design Lab (IPD), UNIST.</p>
+						<h4>Principales Intereses</h4>
+						<p>Interfaces efímeras, interacción tangible, materialización del sonido, experiencias musicales irrepetibles.</p>
+					</div>
+				</article>
+				<article class = "author-card">
+					<div class = "author-photo" tabindex = "0">
+						<img src = "img/sangsu_jang.jpg" alt = "Foto de Sangsu Jang">
+					</div>
+					<div class = "author-info">
+						<h3>Sangsu Jang</h3>
+						<p>Investigador y diseñador en el Interactive Product Design Lab (IPD), UNIST.</p>
+						<h4>Principales Intereses</h4>
+						<p>Interfaces físicas, interacción con dispositivos musicales, experiencias auditivas inmersivas.</p>
+					</div>
+				</article>
+				<article class = "author-card">
+					<div class = "author-photo" tabindex = "0">
+						<img src = "img/hyosun-kwon.webp" alt = "Foto de Hyosun Kwon">
+					</div>
+					<div class = "author-info">
+						<h3>Hyosun Kwon</h3>
+						<p>Profesora e investigadora en diseño industrial (Kookmin University, Corea del Sur).</p>
+						<h4>Principales Intereses</h4>
+						<p>Interacción atenta, interfaces efímeras, diseño de experiencias sensoriales.</p>
+					</div>
+				</article>
+				<article class = "author-card">
+					<div class = "author-photo" tabindex = "0">
+						<img src = "img/young-woo-park.webp" alt = "Foto de Young Woo Park">
+					</div>
+					<div class = "author-info">
+						<h3>Young-Woo Park</h3>
+						<p>Investigador y diseñador en el Interactive Product Design Lab (IPD), UNIST.</p>
+						<h4>Principales Intereses</h4>
+						<p>Interfaces físicas, interacción con dispositivos musicales, experiencias auditivas inmersivas.</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id = "critical" class = "critical-section variant">
+			<h2>CRITICAL MEDIA</h2>
+			<div class = "critical-grid">
+				<article class = "critical-card efimero">
+					<figure class = "critical-media" tabindex = "0">
+						<img src = "img/open.jpg" alt = "Visual concepto efímero">
+					</figure>
+					<div class = "critical-overlay">
+						<h3>Efímero</h3>
+						<p>muRedder reivindica lo efímero como un valor. En lugar de luchar contra la temporalidad con la grabación infinita, el proyecto la restablece. El conocimiento de que la canción no se podrá reproducir de nuevo intensifica la experiencia, transformando el consumo digital rápido y distraído en una "slow consumption" (consumo lento). Lo efímero se convierte en un límite funcional que restaura la atención y el valor que se pierde en la ilusión de la posesión perpetua del contenido.</p>
+					</div>
+				</article>
+				<article class = "critical-card intangible">
+					<figure class = "critical-media" tabindex = "0">
+						<img src = "img/songs.jpg" alt = "Visual consumo intangible">
+					</figure>
+					<div class = "critical-overlay">
+						<h3>Consumo "intangible"</h3>
+						<p>Esta acción es clave para criticar el consumo intangible. La música, inherentemente invisible e infinita en el streaming, es forzada a materializarse en el ticket. Al mismo tiempo que suena la melodía, el dispositivo destruye visiblemente este artefacto físico. La trituración hace tangible el acto invisible de consumir y agotar el contenido digital, obligando al usuario a prestar una atención plena y a tomar decisiones "prudentes" sobre qué canción merece ser sacrificada por esa única escucha.</p>
+					</div>
+				</article>
+				<article class = "critical-card obsolescencia">
+					<figure class = "critical-media" tabindex = "0">
+						<img src = "img/tec.jpg" alt = "Visual obsolescencia programada">
+					</figure>
+					<div class = "critical-overlay">
+						<h3>Obsolescencia programada</h3>
+						<p>Desde la perspectiva de los medios críticos, muRedder ataca directamente la obsolescencia programada no al criticar el hardware, sino al invertir la lógica de la destrucción. Aquí, la finitud no es una falla impuesta por el fabricante, sino un acto ceremonial de consumo único por parte del usuario. Al alimentar un ticket-canción al altavoz triturador, el usuario participa en la destrucción controlada de su música, transformando la culpa de la obsolescencia en una decisión consciente sobre la exclusividad del momento de escucha.</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id = "principios" class = "principles-section">
+			<div class = "section-heading">
+				<h2>Principios de <span class  =  "highlight-name"> <br>Lev Manovich</span></h2>
+			</div>
+			<div class = "principles-container">
+				<div class = "principles-photo">
+					<div class = "photo-card" tabindex = "0">
+						<img src = "img/manovich.webp" alt = "Lev Manovich">
+						<div class = "photo-overlay">
+							<h3>Especialización</h3>
+							<p>Nuevos medios y cultura digital.</p>
+							<h3>Enfoque</h3>
+							<p>Su trabajo ayuda a entender cómo los medios digitales no solo muestran información, sino que modifican la forma en que interactuamos y experimentamos la cultura.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class = "principles-buttons">
+					<button class = "principle-btn disabled" data-principle = "modularidad">Modularidad</button>
+					<button class = "principle-btn" data-principle = "variabilidad">Variabilidad</button>
+					<button class = "principle-btn" data-principle = "transcodificacion">Transcodificación</button>
+					<button class = "principle-btn disabled" data-principle = "representacion">Representación numérica</button>
+					<button class = "principle-btn disabled" data-principle = "automatizacion">Automatización</button>
+				</div>
+
+				<div class = "principles-description">
+					<div class = "description-content" data-content = "variabilidad">
+						<p>Cada interacción genera un resultado distinto dependiendo del orden o del papel que se rompa. No existe una única experiencia, sino múltiples versiones del mismo acto, ya que se puede realizar con canciones diferentes.</p>
+					</div>
+					<div class = "description-content" data-content = "transcodificacion">
+						<p>La acción analógica de romper papel se traduce a una respuesta digital: la música. Así, el proyecto refleja cómo lo humano y lo tecnológico se entrelazan en una misma experiencia artística.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id = "creacion" class = "process-section">
+			<div class = "process-header">
+				<h2>Proceso de creación</h2>
+			</div>
+			<div class = "process-visual">
+				<img src = "img/hand.png" alt = "Mano interactuando" class = "hand-image">
+				<div class = "process-cards">
+					<div class = "process-card">
+						<div class = "circle-photo circle-1">
+							<img src = "img/pcomp.png" alt = "Círculo 1">
+						</div>
+						<div class = "card-content">
+							<h3>Prototipo tecnológico</h3>
+							<p>Se desarrolla un sistema con Arduino, lector RFID, módulo MP3 y motor DC. Función: el chip activa la canción y el motor la destruye a la vez. La computación se usa para sincronizar el tiempo físico con el tiempo sonoro.</p>
+						</div>
+					</div>
+					<div class = "process-card">
+						<div class = "circle-photo circle-2">
+							<img src = "img/pcomp.png" alt = "Círculo 2">
+						</div>
+						<div class = "card-content card-2">
+							<h3>Programación</h3>
+							<p>Se programa la lógica: leer el ticket → reproducir la canción → activar el motor → registrar los datos. Innovación: sincronía perfecta entre sonido y destrucción, registrando cada experiencia como un evento único.</p>
+						</div>
+					</div>
+					<div class = "process-card">
+						<div class = "circle-photo circle-3">
+							<img src = "img/pcomp.png" alt = "Círculo 3">
+						</div>
+						<div class = "card-content card-3">
+							<h3>Diseño físico</h3>
+							<p>Se construye una estructura transparente que permite ver el proceso completo. Enfoque estético: simple, funcional y reflexivo; la carcasa deja visible la acción de "consumir" la música.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id = "tecnologia" class = "technology-section">
+			<h2 class = "tech-title"><span class = "tech-green">TECNO-</span><span class = "tech-orange">LOGÍA</span></h2>
+			<div class = "technology-container">
+				<div class = "tech-left-column">
+					<div class = "tech-text-block">
+						<h3 class = "tech-highlight">El punto de partida:<br>el "ticket musical"</h3>
+						<p>Cada canción está guardada en un pequeño disco de papel, que tiene pegada una etiqueta <strong>RFID</strong> (una especie de chip diminuto que puede ser leído sin cables).</p>
+						<p>Cuando metes este ticket en el parlante, el chip envía una señal con la información de la canción.</p>
+					</div>
+
+					<div class = "tech-text-block">
+						<h3 class = "tech-highlight">El cerebro del sistema</h3>
+						<p>Dentro del parlante hay un <strong>mini computador (Arduino)</strong>. Este recibe la señal del chip, <strong>busca la canción</strong> que corresponde dentro de una <strong>tarjeta de memoria</strong>, y la <strong>reproduce por el parlante</strong>.</p>
+						<p>Al mismo tiempo, <strong>enciende un pequeño motor</strong> que comienza a destruir el ticket poco a poco, sincronizado con la duración de la canción.</p>
+					</div>
+
+					<div class = "tech-text-block">
+						<h3 class = "tech-highlight">La experiencia</h3>
+						<p>Durante esos minutos, el usuario puede ver el ticket siendo triturado dentro de una caja transparente mientras escucha la canción.</p>
+						<p>Cuando termina, <strong>ya no queda ticket</strong>, solo los pedacitos. La canción <strong>no se puede volver a escuchar</strong>: desaparece junto con el papel.</p>
+					</div>
+
+					<div class = "tech-text-block">
+						<h3 class = "tech-highlight">Registro y reflexión</h3>
+						<p>El sistema guarda en su memoria <strong>la fecha y la hora</strong> en que se usó cada ticket, lo que después sirve a los investigadores para estudiar cómo las personas viven esta experiencia "única".</p>
+					</div>
+				</div>
+
+				<div class = "tech-center-wrapper">
+					<div class = "tech-annotations-left">
+						<div class = "tech-annotation orange-text">
+							<p><strong>Núcleo Computacional:</strong> está compuesto por un Arduino y una PCB personalizada. Su función principal es procesar el ID RFID del ticket, reproducir el audio y sincronizar el motor de la destructora. <br>
+								<strong>Componentes Clave:</strong> Lector RFID RC522, módulo MP3, amplificador, microSD y control de motor DC. <br>
+								<strong>Proceso:</strong> El microcontrolador interpreta la señal RFID, localiza y reproduce el archivo de audio correspondiente, mientras registra datos en formato .txt. <br>
+								<strong>Innovación:</strong> Logra la sincronización entre la experiencia sonora (audio) y la destrucción física del objeto.
+							</p>
+						</div>
+						<div class = "tech-annotation orange-text">
+							<p><strong>Capa de Registro y Reflexión (Salida de Datos/Experiencia): <br>Componentes digitales:</strong> Componentes digitales: microSD + archivo de registro. <br> <strong>Componentes humanos:</strong> usuario, observación, memoria, interacción. <br><strong>Función:</strong> Documentar el uso (fecha, hora, canción). <br><strong>Innovación:</strong>Captura de datos para investigación HCI. Promueve slow technology → experiencia reflexiva, efímera y consciente. Vincula comportamiento digital y emocional.</p>
+						</div>
+					</div>
+
+					<div class = "tech-center-image">
+						<img src = "img/tech.png" alt = "Prototipo muRedder">
+					</div>
+
+					<div class = "tech-annotations-right">
+						<div class = "tech-annotation orange-text">
+							<p><strong>Entrada<br> La Capa de Identificación y Datos</strong> se basa en una Etiqueta RFID (18x18 mm) que contiene un chip y una antena para transmitir de forma inalámbrica un ID único. Esta innovación funciona como un "ticket musical" para activar la reproducción y destrucción sincronizada, sirviendo de puente entre el dato digital y un objeto tangible bajo la lógica Io</p>
+						</div>
+						<div class = "tech-annotation orange-text">
+							<p><strong>Interacción Física <br>Capa Mecánica y Visual<br>Componentes:</strong> Motor DC 6V, engranajes, soporte, shredder, parlante, contenedor acrílico. <strong>Función: </strong>Ejecutar el acto físico del “shredding” mientras se escucha la música. <br> <strong>Innovación: </strong>Feedback visual y auditivo simultáneo. Materialización visible del consumo digital. El residuo (papel triturado) se convierte en marcador temporal.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id = "conclusiones" class = "conclusions-section">
+			<h2>CONCLUSIONES</h2>
+			<div class = "conclusions-container">
+
+                <div class = "conclusion-column">
+					<h3 class = "conclusion-title verde-title">Proyecto muRudder</h3>
+					<div class = "conclusion-content">
+						<p>MuRedder es un proyecto que lleva el diseño más allá de un simple objeto, al transformar la música en una experiencia especial y consciente. Nos parece interesante cómo logra vincular tecnología, cultura y crítica en una misma propuesta, donde cada decisión —desde el uso del RFID hasta el acto de destruir el ticket— tiene un sentido simbólico que conecta directamente con el usuario y su contexto.</p>
+						<p>Desde el enfoque del diseño integral, el proyecto nos invita a reflexionar, sin la necesidad de resolver un problema específico, sobre cómo consumimos y valoramos lo digital. Hoy vivimos escuchando música en todas partes, mayoritariamente desde medios digitales, donde muchas veces las canciones se reproducen solo unos segundos y luego se olvidan. Este proyecto <strong>cuestiona la rapidez con la que vivimos y consumimos experiencias, transformando la experiencia de escuchar música en un momento único e irrepetible.</strong> El sistema electrónico y mecánico del objeto actúa como una metáfora del paso del tiempo, de esta forma lo técnico ayuda a potenciar su narrativa y reflexión. Así, consigue que la escucha se vuelva significativa y logre una conexión emocional con cada usuario.</p>
+					</div>
+				</div>
+
+				<div class = "conclusion-column">
+					<h3 class = "conclusion-title verde-title">Enfoque sustentable</h3>
+					<div class = "conclusion-content">
+						<p>Mejorar la sustentabilidad del sistema reemplazando RFID por códigos visuales y usando materiales reciclables o solubles para los tiquets.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class = "shredded-paper-decoration">
+				<img src = "img/confetti.png" alt = "Papel picado decorativo">
+			</div>
+		</section>
+
+	</main>
+	<footer class = "site-footer">
+		<p>Pensamiento computacional 2025-2 - Martina Cabello, María Emilia Del Río, Sofía Hernández, Paulina Tobar, Fernanda Vallejos y Rocío Zuñiga </p>
+	</footer>
+
+	<script src = "script.js"></script>
+
+</body>
+</html>
+
+<!--Código formateado en https://pinetools.com/es/formateador-html -->
